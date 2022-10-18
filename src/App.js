@@ -11,7 +11,6 @@ const App = () => {
       <Header />
           <Navbar />
           <Profile />
-          <h1>ПРОВЕРКА!!</h1>
     </div>
   )
 }
