@@ -1,0 +1,17 @@
+.header {
+	grid-area: h;
+	background-color: #121212;
+	color: #b3b3b3;
+ 
+ 
+	height: 70px;
+	margin: 10px 10px 0px 10px;
+	border-radius: 25px;
+	display: flex;
+ }
+ 
+ .header img {
+	display: flex;
+	margin: 10px;
+	width: 50px;
+ }

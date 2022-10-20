@@ -1,0 +1,38 @@
+.nav{
+	grid-area: n;
+	background-color: #121212;
+	color: #b3b3b3;
+ 
+	height: 200px;
+	width: 150px;
+
+	border-radius: 12px;
+	margin: 20px 0px 10px 10px;
+	padding: 20px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+ }
+
+ .nav__item {
+	font-size: 16px;
+ }
+
+ .nav__item.active {
+	font-weight: 600;
+}
+
+ .nav__item:hover {
+	transition: ease 0.1s;
+	color: white;
+	font-weight: 600;
+ }     
+  
+a:active {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
